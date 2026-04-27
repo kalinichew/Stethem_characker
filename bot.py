@@ -18,6 +18,9 @@ CAI_TOKEN = os.getenv("CHARACTER_AI_TOKEN")
 CHARACTER_ID = "Q2cCMvh7USUnbgAU5NDQFWp_sizQ1vBdYUv--rTNrlU"
 #DEFAULT_VOICE_ID = "0a6835bc-7d6f-4e74-8352-fc1fc1a5e6be" 
 
+#Stalin_voice
+DEFAULT_VOICE_ID = "2dfae5c6-6f4e-4d12-889a-3fffa697137d"
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 

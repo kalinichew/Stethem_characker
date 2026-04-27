@@ -12,8 +12,11 @@ from PyCharacterAI import get_client
 load_dotenv()
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 CAI_TOKEN = os.getenv("CHARACTER_AI_TOKEN")
-CHARACTER_ID = "ePaCGA9413vjoiTiPurKd9nCg4yEGaOrWMx62rD9zvM"
-DEFAULT_VOICE_ID = "0a6835bc-7d6f-4e74-8352-fc1fc1a5e6be" 
+# Stethem
+#CHARACTER_ID = "ePaCGA9413vjoiTiPurKd9nCg4yEGaOrWMx62rD9zvM"
+#Tramp
+CHARACTER_ID = "xqVv-6WqhweXtKfXfrOAihjn1M3yP6k9bXVBuVGQ-nw"
+#DEFAULT_VOICE_ID = "0a6835bc-7d6f-4e74-8352-fc1fc1a5e6be" 
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
